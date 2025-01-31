@@ -1,0 +1,21 @@
+/* bugSolution.css */
+#parent {
+  width: 500px; /* Define a specific width for the parent */
+  background-color: lightgray; 
+}
+
+#child {
+  width: calc(100% - 20px);
+  background-color: lightblue;
+  padding: 10px;
+}
+/* OR */
+#parent2 {
+  background-color: lightgray; 
+}
+
+#child2 {
+  width: calc(100vw - 20px); /* Use viewport width */
+  background-color: lightblue;
+  padding: 10px;
+}
